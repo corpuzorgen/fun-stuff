@@ -1,0 +1,259 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fun stuff all in here :D</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 0;
+        background: #004643;
+        font-size: 62.5%;
+      }
+
+      .button-animate {
+        text-decoration: none;
+        background: #8c7851;
+        color: #fffffe;
+        display: block;
+        padding: 20px;
+        margin: auto;
+        width: 140px;
+        text-align: center;
+        border-radius: 5px;
+        top: 130px;
+        position: relative;
+        font-weight: 700;
+        font-family: monospace;
+        text-transform: uppercase;
+        font-size: 16px;
+        box-shadow: -7px 7px 0px #020826;
+        cursor: pointer;
+        transition: all 0.1s linear;
+        outline: 0;
+        overflow: hidden;
+        font-size: 0;
+      }
+
+      .button-animate-second {
+        text-decoration: none;
+        background: #8c7851;
+        color: #fffffe;
+        display: block;
+        padding: 20px;
+        margin: auto;
+        width: 140px;
+        text-align: center;
+        border-radius: 5px;
+        top: 130px;
+        position: relative;
+        font-weight: 700;
+        font-family: monospace;
+        text-transform: uppercase;
+        font-size: 16px;
+        box-shadow: 0 9px 0px #020826;
+        cursor: pointer;
+        outline: 0;
+        overflow: hidden;
+      }
+
+      .button-animate:active {
+        box-shadow: -4px 4px 0px #020826;
+        transform: translateY(3px);
+        transform: translateX(-3px);
+      }
+      .button-animate-second:active {
+        box-shadow: 0 5px #020826;
+        transform: translateY(4px);
+      }
+
+      a.button-animate:before {
+        content: "→";
+        position: absolute;
+        transform: translateX(-30px);
+        transition: all 0.1s linear;
+        font-size: 16px;
+      }
+
+      a.button-animate:hover:before {
+        transform: translateX(-5px);
+      }
+
+      a.button-animate:after {
+        content: "Get Started";
+        font-size: 16px;
+        position: relative;
+        left: 0;
+        transition: all 0.1s linear;
+      }
+      a.button-animate:hover:after {
+        left: 10px;
+      }
+
+      h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin-top: 100px;
+        font-family: monospace;
+        color: #fffffe;
+      }
+      span {
+        font-size: 100%;
+      }
+
+      a.button-gradient {
+        text-decoration: none;
+        color: #fffffe;
+        display: block;
+        padding: 20px;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+        border-radius: 5px;
+        top: 130px;
+        position: relative;
+        font-weight: 700;
+        font-family: monospace;
+        font-size: 3rem;
+        cursor: pointer;
+        outline: 0;
+        background-image: linear-gradient(
+          to right,
+          #d16ba5,
+          #c777b9,
+          #ba83ca,
+          ss #aa8fd8,
+          #9a9ae1,
+          #8aa7ec,
+          #79b3f4,
+          #69bff8,
+          #52cffe,
+          #41dfff,
+          #46eefa,
+          #5ffbf1
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is a <span>heading</span></h1>
+    <br /><br />
+    <a href="#" class="button-animate">Get Started</a>
+    <br /><br />
+    <button class="button-animate-second">Get Started</button>
+    <br /><br /><br />
+    <a href="#" class="button-gradient">Get Started</a>
+  </body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Button</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 0;
+        background: #004643;
+      }
+
+      .button-animate {
+        text-decoration: none;
+        background: #8c7851;
+        color: #fffffe;
+        display: block;
+        padding: 20px;
+        margin: auto;
+        width: 140px;
+        text-align: center;
+        border-radius: 5px;
+        top: 130px;
+        position: relative;
+        font-weight: 700;
+        font-family: monospace;
+        text-transform: uppercase;
+        font-size: 16px;
+        box-shadow: -7px 7px 0px #020826;
+        cursor: pointer;
+        transition: all 0.1s linear;
+        outline: 0;
+        overflow: hidden;
+        font-size: 0;
+      }
+
+      .button-animate-second {
+        text-decoration: none;
+        background: #8c7851;
+        color: #fffffe;
+        display: block;
+        padding: 20px;
+        margin: auto;
+        width: 140px;
+        text-align: center;
+        border-radius: 5px;
+        top: 130px;
+        position: relative;
+        font-weight: 700;
+        font-family: monospace;
+        text-transform: uppercase;
+        font-size: 16px;
+        box-shadow: 0 9px 0px #020826;
+        cursor: pointer;
+        outline: 0;
+        overflow: hidden;
+      }
+
+      .button-animate:active {
+        box-shadow: -4px 4px 0px #020826;
+        transform: translateY(3px);
+        transform: translateX(-3px);
+      }
+      .button-animate-second:active {
+        box-shadow: 0 5px #020826;
+        transform: translateY(4px);
+      }
+
+      a.button-animate:before {
+        content: "→";
+        position: absolute;
+        transform: translateX(-30px);
+        transition: all 0.1s linear;
+        font-size: 16px;
+      }
+
+      a.button-animate:hover:before {
+        transform: translateX(-5px);
+      }
+
+      a.button-animate:after {
+        content: "Get Started";
+        font-size: 16px;
+        position: relative;
+        left: 0;
+        transition: all 0.1s linear;
+      }
+      a.button-animate:hover:after {
+        left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="button-animate">Get Started</a>
+    <br /><br />
+    <button class="button-animate-second">Get Started</button>
+  </body>
+</html>
+
+>>>>>>> 1ebe1e415e31b8f68cfaf63d24cd06c38752d4fd
